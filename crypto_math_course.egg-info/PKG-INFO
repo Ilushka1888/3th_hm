@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: crypto-math-course
+Version: 0.2.0
+Summary: Educational asymmetric cryptography arithmetic
+Requires-Python: >=3.10
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
+Requires-Dist: hypothesis>=6; extra == "test"
+Provides-Extra: notebook
+Requires-Dist: matplotlib; extra == "notebook"
+Requires-Dist: numpy; extra == "notebook"
+Requires-Dist: mpmath; extra == "notebook"
+Requires-Dist: ipykernel; extra == "notebook"

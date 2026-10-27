@@ -1,0 +1,10 @@
+
+[notebook]
+matplotlib
+numpy
+mpmath
+ipykernel
+
+[test]
+pytest>=8
+hypothesis>=6

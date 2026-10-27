@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-math-course"
+version = "0.2.0"
+description = "Educational asymmetric cryptography arithmetic"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8", "hypothesis>=6"]
+notebook = ["matplotlib", "numpy", "mpmath", "ipykernel"]
+
+[tool.setuptools.packages.find]
+include = ["crypto_math*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

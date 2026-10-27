@@ -1,0 +1,8 @@
+pytest
+hypothesis
+matplotlib
+numpy
+mpmath
+nbformat
+nbclient
+ipykernel
